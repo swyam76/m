@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You, Madhu!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('rr.jpg') no-repeat center center/cover;
+            padding: 50px;
+            overflow: hidden;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            color: #ff4081;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .bouquet {
+            position: absolute;
+            width: 100px;
+            bottom: -150px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: rise 3s ease-in-out forwards;
+        }
+        @keyframes rise {
+            from {
+                bottom: -150px;
+                opacity: 0;
+            }
+            to {
+                bottom: 50px;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You, Madhu!</h1>
+        <p>Your response means a lot to me. Looking forward to our special day together.</p>
+    </div>
+    <img src="https://your-image-url.com/bouquet.png" alt="Bouquet of Roses" class="bouquet">
+</body>
+</html>
